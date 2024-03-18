@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario bross</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt=logo-mario>
+        <a>Home</a>
+        <a>Nossos Serviços </a>
+        <a>Fale Conosco</a>
+
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt=" logo do Mario bross" class="logo-mario">
+            <p> Encanadores Mario e luigi-resolvendo seus problemas com estilo. </p>
+            <p>Diretamente de Brooklyn, Mario e Luigi podem consertar seu encanamento(e não vão drenar todo o seu
+                dinheiro).
+            </p>
+            <button class="button1" onclick="mostrarform()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="logo mario luigui" class="logo-mario-luigui">
+        </div>
+    </div>
+
+
+    <div class="caixa-video">
+
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5532998333889&text=Ol%C3%A1%20quero%20a%20ajuda%20dos%20irm%C3%A3os%20Mario%20"
+        class="link-zap">
+
+        <img src="./img/whatsapp.png" alt=" link para Whatsapp">
+
+    </a>
+
+    <form class="fale-conosco" 
+    action="https://formcarry.com/s/uYHxTobIz76"
+    method="POST" 
+    enctype="multipart/form-data">    
+    <input placeholder=" Seu nome" type=" text" name="nome">
+    <input placeholder=" Seu telefone" type="tel" name="telefone">
+    <textarea placeholder="Digite seu problema aqui.... "name="duvida"></textarea>
+        <button type="submit"> Pedir Orçamento </button>
+
+    </form>
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
